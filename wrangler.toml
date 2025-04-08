@@ -8,7 +8,9 @@ compatibility_flags = ["nodejs_compat"]
   bucket = "./public"
 
 [vars]
-CALLS_APP_ID = "YOUR_CALLS_SFU_APP_ID_HERE"
+CALLS_APP_ID = "9600c38f044ffef043733e26d11fb02f"
+MAX_WEBCAM_FRAMERATE=60
+MAX_WEBCAM_BITRATE=12000000
 
 # Optional vars
 # OPENAI_MODEL_ENDPOINT = ""

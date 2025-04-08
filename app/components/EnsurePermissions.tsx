@@ -59,6 +59,9 @@ export function EnsurePermissions(props: EnsurePermissionsProps) {
 					</p>
 					<Button
 						onClick={() => {
+							// 跳过权限检查
+							setPermissionState('granted')
+							return
 							navigator.mediaDevices
 								.getUserMedia({
 									video: true,
